@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebe0bb;
+    padding-top: 10px;
+}
+img {
+    max-width: 10%;
+    max-height: 10%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 30px;
+    font-weight: 550;
+}
+
+li {
+    display: inline;
+    margin: 10px 50px 10px 100px;
+}
+
+a {
+    color:  #703412;
+    text-decoration: none;
+    font-size: 22px;
+}
+nav {
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: rgb(231, 6, 252);
+}
+
+.bigphoto {
+    height:750px;
+    width:1850px;
+    background-image: url(../Img/photo_5472042309861369389_y.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+
+}
+
+.bigvstavka {
+    width: 222px;
+    height: 132px;
+    background: linear-gradient(62deg, rgba(244, 213, 178, 0.8) 0%, rgba(234,156, 65, 0.8)100%);
+    position: absolute;
+    top: 520px;
+    left:690px;
+    text-align: center;
+    padding-top: 15px;
+
+
+}
+
+.bigrama {
+    width: 192px;
+    height: 102px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0px 0 0px 2px;
+    text-align: left;
+}
+
+.bigtext {
+    font-size: 22,5px;
+    margin: 0;
+    padding: 0px 0 0 0px;
+    margin-bottom: 4px;
+    color: #803300;
+}
+
+.minitext {
+    font-size: 15px;
+    color: #9c3100;
+    padding: 0 0 2px 0;
+    margin-bottom: 3px;
+    
+}
+
+.vkleiki {
+    margin-bottom: 20px;
+}
+
+.vkleiki-icon {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.vkleiki-icon img {
+    margin-right: 70px;
+    height: 250px;
+    width: 250px;
+}
+
+.vkleiki-icon img :last-child {
+    margin-right: 0px;
+}
+
+#middle {
+    height: 160px;
+    width: auto;
+}
+
+
+#first {
+    margin-left: 70px;
+}
+
+.zag {
+    font-size: 66px;
+    margin: 0px;
+    margin-bottom: 38px;
+    text-align: center;
+    color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(226, 75, 5), rgb(247, 161, 2));
+}
+
+.pervoeosebe {
+    font-size: 33px;
+    text-align: center;
+    color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(151, 99, 3), rgb(228, 195, 5));
+}
+
+.vtoroeosebe {
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 38px;
+    color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(151, 99, 3), rgb(228, 195, 5));
+}
+
+.RMT {
+    font-size: 33px;
+    text-align: center;
+    color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(247, 143, 7), rgb(247, 191, 5));
+
+}
+
+.map-title {
+    font-size: 66px;
+    margin-bottom: 38px;
+    text-align: center;
+    color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(226, 75, 5), rgb(247, 161, 2));
+}
+
+.intmap {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.line {
+    height: 1px;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color:  #703412;
+}
+
+.line2 {
+    height: 1px;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color:  #703412;
+}
+
+.quintessential-regular {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
